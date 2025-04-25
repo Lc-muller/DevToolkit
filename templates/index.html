@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevToolkit - Buscar Recursos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Busca de Recursos para Desenvolvedores</h1>
+        <h2>De "A" a "Z" os melhores Gits sobre X coisas de programação</h2>
+
+        <form method="POST">
+            <label for="query">Pesquise por um recurso:</label>
+            <input type="text" name="query" id="query" required>
+            <button type="submit">Buscar</button>
+        </form>
+
+        {% if results %}
+        <h2>Resultados:</h2>
+        <ul>
+            {% for link in results %}
+            <li><a href="{{ link }}" target="_blank">{{ link }}</a></li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+        <footer>
+            <p>Feito com 💚 por <a href="https://github.com/Lc-muller" target="_blank">Lc-muller</a></p>
+            <p class="footer-text">"De iniciante para iniciante: facilitando a busca pelos melhores recursos para o seu aprendizado e desenvolvimento!"</p>
+            <p class="footer-text">"a Google esta derrubando o scraping vamos subir API, a cada 3 4 pesquisas seguidas ela derruba etende que é um captcha"</p>
+        </footer>
+    </div>
+</body>
+
+</html>
