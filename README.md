@@ -1,6 +1,6 @@
 # DevToolkit 🔧
 
-Um buscador de recursos para devs! Digite o nome de uma linguagem ou tecnologia e encontre:
+Um buscador de recursos para devs! Digite o nome de uma linguagem ou tecnologia e encontre tudo para iniciantes:
 
 - Componentes de UI
 - Bibliotecas
