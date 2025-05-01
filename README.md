@@ -23,7 +23,7 @@ Atualmente, a API de pesquisa utilizada está sendo constantemente bloqueada pel
 
 ### Pré-requisitos
 
-1. **Instalar o Python** (se não tiver, faça [download aqui](https://www.python.org/downloads/)).
+1. **Instalar o Python** (se não tiver, faça o [download aqui](https://www.python.org/downloads/)).
 
 2. **Instalar dependências**:
    Depois de clonar o repositório, entre na pasta do projeto e crie um ambiente virtual para gerenciar as dependências:
